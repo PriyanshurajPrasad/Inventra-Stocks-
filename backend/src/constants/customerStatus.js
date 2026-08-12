@@ -1,0 +1,7 @@
+export const CUSTOMER_STATUS = {
+  LEAD: 'LEAD',
+  ACTIVE: 'ACTIVE',
+  INACTIVE: 'INACTIVE'
+};
+
+export const CUSTOMER_STATUS_VALUES = Object.values(CUSTOMER_STATUS);

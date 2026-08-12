@@ -1,0 +1,7 @@
+export const CUSTOMER_TYPE = {
+  RETAIL: 'RETAIL',
+  WHOLESALE: 'WHOLESALE',
+  DISTRIBUTOR: 'DISTRIBUTOR'
+};
+
+export const CUSTOMER_TYPE_VALUES = Object.values(CUSTOMER_TYPE);
