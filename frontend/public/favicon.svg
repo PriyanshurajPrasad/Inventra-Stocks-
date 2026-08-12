@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Purple Rounded Square Background -->
+  <rect width="100" height="100" rx="22" fill="#581c87" />
+  <rect width="100" height="100" rx="22" fill="url(#purpleGrad)" />
+
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6d28d9" />
+      <stop offset="50%" stop-color="#581c87" />
+      <stop offset="100%" stop-color="#4c1d95" />
+    </linearGradient>
+  </defs>
+
+  <!-- White Building Logo Icon -->
+  <g fill="#ffffff">
+    <!-- Baseline -->
+    <rect x="15" y="70" width="70" height="3.5" rx="1.5" />
+    
+    <!-- Central Tower (Tallest) -->
+    <path d="M 40 26 C 40 25 41 24 42 24 L 58 24 C 59 24 60 25 60 26 L 60 70 L 40 70 Z" />
+
+    <!-- Central Tower Cutout Windows -->
+    <rect x="44" y="28" width="5" height="7" fill="#581c87" rx="0.5" />
+    <rect x="51" y="28" width="5" height="7" fill="#581c87" rx="0.5" />
+    <rect x="44" y="38" width="5" height="7" fill="#581c87" rx="0.5" />
+    <rect x="51" y="38" width="5" height="7" fill="#581c87" rx="0.5" />
+    <rect x="44" y="48" width="5" height="7" fill="#581c87" rx="0.5" />
+    <rect x="51" y="48" width="5" height="7" fill="#581c87" rx="0.5" />
+    <rect x="44" y="58" width="5" height="12" fill="#581c87" rx="0.5" />
+    <rect x="51" y="58" width="5" height="12" fill="#581c87" rx="0.5" />
+
+    <!-- Left Inner Tower -->
+    <path d="M 31 36 C 31 35 32 34 33 34 L 40 34 L 40 70 L 31 70 Z" />
+    <rect x="34" y="38" width="3.5" height="6" fill="#581c87" rx="0.5" />
+
+    <!-- Right Inner Tower -->
+    <path d="M 60 34 L 67 34 C 68 34 69 35 69 36 L 69 70 L 60 70 Z" />
+    <rect x="62.5" y="38" width="3.5" height="6" fill="#581c87" rx="0.5" />
+
+    <!-- Left Outer Wing (Sloped Roof) -->
+    <path d="M 19 46 C 19 45.5 19.5 45 20 44.7 L 29 40 C 29.5 39.8 30 40.2 30 40.8 L 30 70 L 19 70 Z" />
+    <rect x="22" y="47" width="2.5" height="18" fill="#581c87" rx="0.5" />
+    <rect x="25.5" y="47" width="2.5" height="18" fill="#581c87" rx="0.5" />
+
+    <!-- Right Outer Wing (Sloped Roof) -->
+    <path d="M 70 40.8 C 70 40.2 70.5 39.8 71 40 L 80 44.7 C 80.5 45 81 45.5 81 46 L 81 70 L 70 70 Z" />
+    <rect x="72" y="47" width="2.5" height="18" fill="#581c87" rx="0.5" />
+    <rect x="75.5" y="47" width="2.5" height="18" fill="#581c87" rx="0.5" />
+  </g>
+</svg>
